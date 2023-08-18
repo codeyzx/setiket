@@ -8,6 +8,6 @@ on:
       - "main"
 
 jobs:
-  testAndCoverage:
-    name: 🧪 Test
+  clientTest:
+    name: 🧪 Client Test
     uses: ./.github/workflows/__client_test.yml

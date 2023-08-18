@@ -46,7 +46,7 @@ jobs:
       - name: 🧪📊 Publish coverage report
         uses: romeovs/lcov-reporter-action@v0.3.1
         with:
-          lcov-file: coverage_report/combined_lcov.info
+          lcov-file: client/coverage_report/combined_lcov.info
           github-token: ${{ secrets.GITHUB_TOKEN }}
           title: "Coverage Report"
       - name: 🥤 Extract test coverage percentage
