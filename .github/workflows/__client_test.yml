@@ -21,7 +21,9 @@ jobs:
           channel: "stable"
           cache: true
       - name: ⚙️ Install dependencies for all packages
-        run: flutter pub get
+        run: |
+          cd client
+          flutter pub get
       - name: 🧪 Run tests with coverage
         run: |
           cd client
