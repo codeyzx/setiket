@@ -44,11 +44,10 @@ jobs:
           max-annotations: "50"
           token: ${{ secrets.GITHUB_TOKEN }}
       - name: 🧪📊 Publish coverage report
-        uses: romeovs/lcov-reporter-action@v0.3.1
+        uses: romeovs/lcov-reporter-action@v0.2.11
         with:
-          lcov-file: client/coverage_report/combined_lcov.info
+          lcov-file: ./client/coverage_report/combined_lcov.info
           github-token: ${{ secrets.GITHUB_TOKEN }}
-          title: "Coverage Report"
       - name: 🥤 Extract test coverage percentage
         run: |
           grep -o '.*headerCovTableEntryLo.*' client/coverage/report/lib/index.html | sed -E  's/.*>(.*) %<.*/\1/' > coverage_percentage.txt
