@@ -10,4 +10,4 @@ on:
 jobs:
   testAndCoverage:
     name: 🧪 Test
-    uses: ./client/.github/workflows/_test_with_coverage.yml
+    uses: ./.github/workflows/__client_test.yml
