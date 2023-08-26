@@ -61,6 +61,7 @@
 SeTiket provide a seamless and user-friendly experience for event organizers and customers
 
 <br/>
+<br/>
 
 <a  href="https://github.com/barudak-well/setiket">View Demo</a>
 
@@ -210,7 +211,7 @@ Yahya Alfon Sinaga - [@yahyaalfon](https://linkedin.com/in/yahyaalfon/) - yahyat
 
 Muhammad Emirsyah Makarim - [@muhammademirsyah](https://linkedin.com/in/muhammad-emirsyah-makarim/) - muhammademir48@gmail.com <br>
 
-<b> Mentor:  </b> Doni Rubiagatra - [Our Mentor](https://www.linkedin.com/in/rubiagatra/)
+<b> Mentor: </b> Doni Rubiagatra - [Our Mentor](https://www.linkedin.com/in/rubiagatra/)
 
 <p  align="right">(<a  href="#readme-top">back to top</a>)</p>
 
