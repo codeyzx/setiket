@@ -59,8 +59,10 @@
 <p  align="center">
 
 SeTiket provide a seamless and user-friendly experience for event organizers and customers
+
 <br/>
 <br/>
+
 <a  href="https://github.com/barudak-well/setiket">View Demo</a>
 ·
 <a  href="https://github.com/barudak-well/setiket/issues">Report Bug</a>
