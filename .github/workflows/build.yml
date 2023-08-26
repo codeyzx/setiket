@@ -18,3 +18,8 @@ jobs:
     name: 🔨 Client Deploy
     uses: ./.github/workflows/__client_deploy.yml
     secrets: inherit
+
+  serverTest:
+    name: 🧪 Server Test
+    uses: ./.github/workflows/__server_test.yml
+    secrets: inherit
