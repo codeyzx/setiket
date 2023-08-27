@@ -22,10 +22,10 @@ jobs:
       - name: Setup Env Variables
         uses: SpicyPizza/create-envfile@v2.0
         with:
-          envkey_DATABASE_URL: ${{ secrets.DATABASE_URL }} 
-          envkey_DIRECT_URL: ${{ secrets.DIRECT_URL }} 
-          envkey_ACCESS_TOKEN_SECRET: ${{ secrets.ACCESS_TOKEN_SECRET }} 
-          directory: './server'
+          envkey_DATABASE_URL: ${{ secrets.DATABASE_URL }}
+          envkey_DIRECT_URL: ${{ secrets.DIRECT_URL }}
+          envkey_ACCESS_TOKEN_SECRET: ${{ secrets.ACCESS_TOKEN_SECRET }}
+          directory: "./server"
           file_name: .env
       - name: Run Tests and Generate Coverage
         run: |
@@ -41,4 +41,3 @@ jobs:
         with:
           lcov-file: ./server/coverage/lcov.info
           github-token: ${{ secrets.GITHUB_TOKEN }}
-
